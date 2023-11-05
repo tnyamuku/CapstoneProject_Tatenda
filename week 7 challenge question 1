@@ -1,0 +1,14 @@
+# console program
+
+# creating the function to ...FINISH
+def write():
+    file = open('File.txt', 'w')
+    word_num = int(input('Please enter the number of words: '))
+
+    for i in range(word_num):
+        word_count = input(f'Enter word {i + 1}: ')
+        file.write(word_count + '\n')
+
+
+# calling the function
+write()
